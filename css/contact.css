@@ -1,6 +1,6 @@
 body {
     font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
-    background: green;
+    background: lightblue;
     color: #fff;
     padding: 50px 0;
 }
@@ -58,7 +58,7 @@ body {
     margin: 0;
 }
 
-.flex li input:not([type='checkbox']),
+.flex li input,
 .flex li textarea {
     padding: 15px;
     border: none;
