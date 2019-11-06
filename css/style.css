@@ -1,13 +1,16 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 
+/*mobile style*/
+
+
 /* medium to big screen size */
 
 body {
-    box-sizing: border-box;
     background-color: silver;
 }
 
@@ -63,8 +66,6 @@ nav li a {
     color: white;
     margin: 10px;
     padding: 5px;
-    border: 1px solid white;
-    border-radius: 20%;
 }
 
 #ulinks {
@@ -127,10 +128,7 @@ article {
     border: 1px solid yellow;
 }
 
-
-/*mobile style*/
-
-@media(max-width: 700px) {
+@media(max-width: 720px) {
     .wrapper {
         display: grid;
         height: 100vh;
